@@ -6,42 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personagens</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
+    <div class="background">
+        <h2 class="bg1">
+            meth
+        </h2>
+        <h2 class="bg2">
+            H<sub>15</sub>N
+        </h2>
+        <h2 class="bg3">
+            N
+        </h2>
+        <h2 class="bg4">
+            C<sub>10</sub>
+        </h2>
+        <h2 class="bg5">
+            H<sub>15</sub>
+        </h2>
+        <h2 class="bg6">
+            149.24
+        </h2>
+        <h2 class="bg7">
+            C<sub>10</sub>
+        </h2>
+        <h2 class="bg8">
+            149.24
+        </h2>
+        <div class="table1">
+            <img src="assets/periodic-table.webp" alt="">
+        </div>
+        <div class="table2">
+            <img src="assets/periodic-table.webp" alt="">
+        </div>
+    </div>
     <main>
         <section class="lateral">
-            <figure>
-                <img src="assets/.webp" alt="">
+            <figure onmouseover="changeImage(1)" onmouseout="defaultImage()">
+                <img src="assets/gus-fring.webp" alt="">
             </figure>
-            <figure>
-                <img src="assets/.webp" alt="">
+            <figure onmouseover="changeImage(2)" onmouseout="defaultImage()">
+                <img src="assets/hank-schrader.webp" alt="">
             </figure>
-            <figure>
-                <img src="assets/.webp" alt="">
+            <figure onmouseover="changeImage(3)" onmouseout="defaultImage()">
+                <img src="assets/hector-salamanca.webp" alt="">
             </figure>
-            <figure>
-                <img src="assets/.webp" alt="">
+            <figure onmouseover="changeImage(4)" onmouseout="defaultImage()">
+                <img src="assets/jesse-pinkman.webp" alt="">
             </figure>
         </section>
         <section class="central">
             <figure class="grande">
-                <img src="assets/.webp" alt="">
+                <img src="assets/bb-logo.webp" alt="" id="theImage">
             </figure>
-            <figcaption>Nome</figcaption>
+            <h1 id="name"></h1>
         </section>
         <section class="lateral">
-            <figure>
-                <img src="assets/.webp" alt="">
+            <figure onmouseover="changeImage(5)" onmouseout="defaultImage()">
+                <img src="assets/mike-ehrmantraut.webp" alt="">
             </figure>
-            <figure>
-                <img src="assets/.webp" alt="">
+            <figure onmouseover="changeImage(6)" onmouseout="defaultImage()">
+                <img src="assets/saul-goodman.webp" alt="">
             </figure>
-            <figure>
-                <img src="assets/.webp" alt="">
+            <figure onmouseover="changeImage(7)" onmouseout="defaultImage()">
+                <img src="assets/skyler-white.webp" alt="">
             </figure>
-            <figure>
-                <img src="assets/.webp" alt="">
+            <figure onmouseover="changeImage(8)" onmouseout="defaultImage()">
+                <img src="assets/walter-white.webp" alt="">
             </figure>
         </section>
     </main>
